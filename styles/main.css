@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('./globals.css');
 @import url('./components/navbar.css');
 @import url('./pages/index.css');

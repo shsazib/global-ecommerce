@@ -1,0 +1,76 @@
+.navigation_bar {
+  width: 1400px;
+  margin: 0 auto;
+  @apply grid grid-flow-col justify-between items-center;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.navigation_bar ul li a {
+  padding: 18px;
+  font-size: 15px;
+  margin: 0 5px;
+}
+.categories_icon {
+  width: 30px;
+  cursor: pointer;
+}
+.nav_sub_menu {
+  position: absolute;
+  background-color: #fff;
+  padding: 10px 0;
+  margin-top: 16px;
+  transform: rotateX(90deg);
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  transform-origin: top;
+}
+.nav_sub_menu li {
+  padding: 10px 0;
+  font-size: 15px;
+  margin: 0 5px;
+}
+
+.nav_sub_menu_container:hover .nav_sub_menu {
+  transform: rotateX(0deg);
+}
+
+/* navbar_top */
+.navbar_top {
+  width: 1400px;
+  margin: 0 auto;
+  @apply grid grid-flow-col justify-between items-center;
+  padding: 10px 0;
+}
+.navbar_logo img {
+  width: 80px;
+}
+.navbar_top_right {
+  color: #666;
+}
+.navbar_search {
+  border: 1px solid #6662;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.navbar_search input {
+  width: 500px;
+  outline: none;
+  padding: 5px 10px;
+  color: #666;
+}
+.nav_search_btn {
+  color: #333;
+  cursor: pointer;
+  width: 25px;
+}
+.nav_login_register a {
+  font-size: 14px;
+}
+.nav_login_register a:hover {
+  color: var(--theme_color);
+}
+.navbar_top_right svg {
+  cursor: pointer;
+}

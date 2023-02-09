@@ -7,7 +7,7 @@ const master = ({ children }) => {
   return (
     <>
       <Head>
-        <link rel="icon" type="image/svg+xml" href="/assets/x-icon.png" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
         <title>MYCHOICE</title>
       </Head>
 

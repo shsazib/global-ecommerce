@@ -1,8 +1,14 @@
 import React from 'react';
+import NavBottom from './navBottom';
+import NavTop from './navTop';
+
 const navbar = () => {
   return (
-    <div>navbar</div>
+    <>
+    <NavTop />
+    <NavBottom />
+    </>
   )
 }
 
-export default navbar
+export default navbar;
