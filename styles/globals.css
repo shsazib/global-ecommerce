@@ -203,3 +203,10 @@ label {
 :root {
   --theme_color: #94cc2c;
 }
+.content_container{
+  width: 1400px;
+  margin: 0 auto;
+}
+.theme_color{
+  color: #94cc2c;
+}

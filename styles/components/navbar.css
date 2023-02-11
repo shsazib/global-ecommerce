@@ -1,6 +1,4 @@
 .navigation_bar {
-  width: 1400px;
-  margin: 0 auto;
   @apply grid grid-flow-col justify-between items-center;
   font-weight: 500;
   padding: 10px 0;
@@ -36,8 +34,6 @@
 
 /* navbar_top */
 .navbar_top {
-  width: 1400px;
-  margin: 0 auto;
   @apply grid grid-flow-col justify-between items-center;
   padding: 10px 0;
 }
@@ -57,8 +53,9 @@
 .navbar_search input {
   width: 500px;
   outline: none;
-  padding: 5px 10px;
+  padding: 5px 0;
   color: #666;
+  font-size: 14px;
 }
 .nav_search_btn {
   color: #333;

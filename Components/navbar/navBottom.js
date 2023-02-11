@@ -6,7 +6,7 @@ const navBottom = () => {
   return (
     <>
       <div className="bg_color text_color font-caveat text_color">
-        <nav className="navigation_bar">
+        <nav className="navigation_bar content_container">
           <div className=" flex gap-3 justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"

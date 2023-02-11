@@ -4,7 +4,7 @@ import Link from "next/link";
 const navTop = () => {
   return (
     <>
-      <div className="navbar_top">
+      <div className="navbar_top content_container">
         <div className="navbar_logo">
           <img src="Logo.png"></img>
         </div>

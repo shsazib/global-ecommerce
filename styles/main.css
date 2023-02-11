@@ -5,4 +5,5 @@
 @import url('./globals.css');
 @import url('./components/navbar.css');
 @import url('./pages/index.css');
+@import url('./components/all_categories.css');
 @import url('./components/footer.css');

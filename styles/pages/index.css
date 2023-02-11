@@ -1,3 +1,4 @@
-.home_section{
-    font-weight: 400;
+.categories_slider{
+display: grid;
+grid-template-columns: 2fr 7fr;
 }
