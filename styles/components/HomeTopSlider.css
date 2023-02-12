@@ -1,0 +1,46 @@
+
+.swiper {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home_slider_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .swiper-pagination-bullet{
+    width: 50px !important;
+    height: 5px !important;
+    background-color: #94cc2c !important;
+    border-radius: 1px !important;
+  }
+  

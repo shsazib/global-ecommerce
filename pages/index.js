@@ -1,12 +1,14 @@
 import AllCategories from "@/Components/all-categories/all-categories";
 import Campaign from "@/Components/Campaign/campaign";
+import HomeTopSlider from "@/Components/home-top-slider/HomeTopSlider";
 
 export default function Home() {
   return (
     <>
       <div className="home_section">
         <div className="categories_slider content_container">
-        <AllCategories />
+          <AllCategories />
+          <HomeTopSlider />
         </div>
         <Campaign />
       </div>

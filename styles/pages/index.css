@@ -1,4 +1,6 @@
 .categories_slider{
-display: grid;
-grid-template-columns: 2fr 7fr;
+    display: grid;
+    grid-template-columns: 280px auto;
+    gap: 1rem;
+    align-items: flex-start;
 }

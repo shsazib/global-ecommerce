@@ -1,0 +1,25 @@
+.campaign_content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.campaign_single_content{
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    gap: 0.5rem;
+}
+
+.campaign_single_content span{
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+.campaign_single_content h4{
+   font-weight: 600;
+}
+.campaign_single_content p{
+  color: #666;
+}

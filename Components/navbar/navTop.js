@@ -6,7 +6,7 @@ const navTop = () => {
     <>
       <div className="navbar_top content_container">
         <div className="navbar_logo">
-          <img src="Logo.png"></img>
+          <img src="logo/Logo.png"></img>
         </div>
         <div className="navbar_search flex">
           <input placeholder="I am looking for....." />

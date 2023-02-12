@@ -204,9 +204,23 @@ label {
   --theme_color: #94cc2c;
 }
 .content_container{
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
 }
 .theme_color{
   color: #94cc2c;
+}
+
+.btn_1{
+  width: 150px;
+  color: #fff;
+  padding: 8px;
+  background-color: #333;
+  border-radius: 5px;
+  border: 1px solid #333;
+  transition: 0.2s;
+}
+.btn_1:hover{
+background-color: #fff;
+color: #000;
 }
