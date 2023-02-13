@@ -8,3 +8,15 @@
 .percent_off_section a img:hover{
     transform: scale(1.1);
 }
+
+
+@media screen and (max-width: 1300px) {
+    .percent_off_section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 992px) {
+    .percent_off_section{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

@@ -3,7 +3,7 @@
     grid-template-columns: repeat(4, 1fr);
     padding: 20px 10px;
     border: 1px solid #eee;
-    margin: 14px 0;
+    margin: 16px 0;
 }
 .single_global_list{
     display: flex;
@@ -11,12 +11,20 @@
 }
 .single_global_list_icon{
     font-size: 30px;
-    color: #a6cc41;
 }
 .single_global_list h2{
     font-size: 16px;
     font-weight: 600;
+    color: #222;
 }
 .single_global_list p{
     font-size: 14px;
+    color: #444;
+}
+
+@media screen and (max-width: 992px) {
+    .global_list_section{
+        margin: 16px 2%;
+        padding: 10px 5px;
+    }
 }

@@ -6,7 +6,7 @@ const Section_title = ({ title, view_more, link }) => {
     <>
       <div className="section_title content_container">
         <h2>{title}</h2>
-        <div className="section_title_a flex items-center gap-1">
+        <div className=" flex items-center gap-1">
           <a href={link}>{view_more}</a>
           <BsArrowRightShort />
         </div>

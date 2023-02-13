@@ -5,7 +5,7 @@ import { GoTriangleDown } from "react-icons/go";
 const navBottom = () => {
   return (
     <>
-      <div className="bg_color text_color font-caveat text_color">
+      <div className="bg-[var(--theme)] text-black font-caveat">
         <nav className="navigation_bar content_container">
           <div className=" flex gap-3 justify-center items-center">
             <svg

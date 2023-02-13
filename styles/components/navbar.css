@@ -67,8 +67,35 @@
   font-size: 14px;
 }
 .nav_login_register a:hover {
-  color: var(--theme_color);
+  color: var(--theme);
 }
 .navbar_top_right svg {
   cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar_top {
+    width: 950px;
+  }
+  .navigation_bar {
+    width: 950px;
+  }
+  .navigation_bar ul li a {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navigation_bar {
+    display: none;
+  }
+  .sign_reg {
+    display: none !important;
+  }
+  .navbar_search input {
+    width: 500px;
+  }
+  .navbar_top {
+    padding: 10px 2%;
+  }
 }

@@ -9,6 +9,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --theme: #94cc2c;
+}
+:root {
+  --theme_opacity: #94cc2c11;
+}
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -194,22 +202,16 @@ label {
   cursor: pointer;
 }
 
-.bg_color {
-  background-color: #94cc2c;
-}
+
 .text_color {
   color: #000;
 }
-:root {
-  --theme_color: #94cc2c;
-}
+
 .content_container{
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
-.theme_color{
-  color: #94cc2c;
-}
+
 
 .btn_1{
   width: 150px;

@@ -29,7 +29,7 @@
   .swiper-pagination-bullet{
     width: 50px !important;
     height: 5px !important;
-    background-color: #94cc2c !important;
+    background-color: var(--theme) !important;
     border-radius: 1px !important;
   }
   

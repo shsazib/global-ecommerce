@@ -10,11 +10,19 @@
 .section_title h2{
     font-size: 25px;
 }
-.section_title_a{
+.section_title a{
  font-weight: 500;
  transition: 0.2s;
 }
-.section_title_a:hover{
+.section_title > div:hover{
  text-decoration: underline;
- color: #a6cc41;
+ color: var(--theme);
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .section_title{
+        margin: 20px 2%;
+    }
 }

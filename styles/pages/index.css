@@ -1,6 +1,23 @@
+
+
 .categories_slider{
     display: grid;
     grid-template-columns: 280px auto;
     gap: 1rem;
     align-items: flex-start;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .home_section{
+        width: 950px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .categories_slider{
+        grid-template-columns: 1fr;
+        margin: 0 2%;
+    }
 }

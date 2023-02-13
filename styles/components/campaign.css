@@ -23,3 +23,10 @@
 .campaign_single_content p{
   color: #666;
 }
+
+
+@media screen and (max-width: 992px) {
+    .campaign_content{
+        margin: 0 2%;
+    }
+}

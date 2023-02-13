@@ -9,28 +9,28 @@ const Global_list = () => {
     <>
         <div className='global_list_section'>
             <div className='single_global_list gap-5'>
-                <MdLocalShipping className='single_global_list_icon' />
+                <MdLocalShipping className='single_global_list_icon text-[var(--theme)]' />
                 <div>
                     <h2>Free Shipping & Returns</h2>
                     <p>For all orders over $100</p>
                 </div>
             </div>
             <div className='single_global_list gap-5'>
-                <BsFillChatDotsFill className='single_global_list_icon' />
+                <BsFillChatDotsFill className='single_global_list_icon text-[var(--theme)]' />
                 <div>
                     <h2>Customer Support</h2>
                     <p>Call or Email us 24X7</p>
                 </div>
             </div>
             <div className='single_global_list gap-5'>
-                <FiRefreshCcw className='single_global_list_icon' />
+                <FiRefreshCcw className='single_global_list_icon text-[var(--theme)]' />
                 <div>
                     <h2>Secure Payment</h2>
                     <p>We ensure secure payment</p>
                 </div>
             </div>
             <div className='single_global_list gap-5'>
-                <FaMoneyCheckAlt className='single_global_list_icon' />
+                <FaMoneyCheckAlt className='single_global_list_icon text-[var(--theme)]' />
                 <div>
                     <h2>Money Back Guarantee</h2>
                     <p>Any back within 30 days</p>
