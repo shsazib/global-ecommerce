@@ -1,19 +1,8 @@
 
-.swiper {
+.home_Swiper_slider {
     width: 100%;
     height: auto;
     margin-top: 1rem;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   
   .home_slider_img {

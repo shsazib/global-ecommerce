@@ -21,6 +21,7 @@
   transition: 0.3s;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   transform-origin: top;
+  z-index: 10;
 }
 .nav_sub_menu li {
   padding: 10px 0;

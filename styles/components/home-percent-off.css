@@ -1,0 +1,10 @@
+.percent_off_section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.percent_off_section a img{
+    transition: 0.5s;
+}
+.percent_off_section a img:hover{
+    transform: scale(1.1);
+}

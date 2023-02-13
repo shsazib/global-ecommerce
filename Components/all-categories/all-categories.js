@@ -513,67 +513,7 @@ const AllCategories = () => {
               </div>
             </div>
           </li>
-          <li className="main_cat_li">
-            <div className="flex items-center justify-between	">
-              <Link
-                href="#"
-                className="flex items-center gap-2 main_cat_li_link"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                  stroke-width="1"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2z"></path>
-                  <path d="M5 11v-5a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v5"></path>
-                  <path d="M6 19v2"></path>
-                  <path d="M18 19v2"></path>
-                </svg>
-                Home
-              </Link>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                stroke-width="1"
-                stroke="currentColor"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M9 6l6 6l-6 6"></path>
-              </svg>
-            </div>
-
-            <div className="categories_sub_menu">
-              <div className="single_categories">
-                <h3>kids</h3>
-                <div className="cate_sing_item">
-                  <div>
-                    <Link href="#">Girls Dresses</Link>
-                  </div>
-                  <div>
-                    <Link href="#">Girls Dresses</Link>
-                  </div>
-                  <div>
-                    <Link href="#">Girls Dresses</Link>
-                  </div>
-                  <div>
-                    <Link href="#">Girls Dresses</Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
+          
           <li className="main_cat_li">
             <div className="flex items-center justify-between	">
               <Link

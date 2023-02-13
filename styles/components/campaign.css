@@ -17,7 +17,7 @@
     border-bottom: 1px solid #ddd;
     font-size: 14px;
 }
-.campaign_single_content h4{
+.campaign_single_content a{
    font-weight: 600;
 }
 .campaign_single_content p{

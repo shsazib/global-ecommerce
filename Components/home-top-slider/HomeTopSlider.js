@@ -17,7 +17,7 @@ export default function HomeTopSlider() {
         spaceBetween={0}
         centeredSlides={true}
         autoplay={{
-          delay: 500,
+          delay: 2500,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -25,7 +25,7 @@ export default function HomeTopSlider() {
         }}
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="home_Swiper_slider"
       >
         <SwiperSlide>
             <img className='home_slider_img' src='slider-img/slider-img-1.png' alt="img"></img>
