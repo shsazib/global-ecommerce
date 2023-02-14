@@ -8,8 +8,8 @@ import "slick-carousel/slick/slick-theme.css";
 export default class Campaign extends Component {
   render() {
     var settings = {
-      dots: true,
-      infinite: false,
+      dots: false,
+      infinite: true,
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -21,7 +21,7 @@ export default class Campaign extends Component {
             slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
-            dots: true,
+            dots: false,
           },
         },
         {

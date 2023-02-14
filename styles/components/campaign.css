@@ -20,4 +20,6 @@
   color: #666;
 }
 
-
+.slick-arrow{
+  display: none !important;
+}

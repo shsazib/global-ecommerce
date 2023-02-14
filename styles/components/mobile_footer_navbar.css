@@ -1,0 +1,27 @@
+.mobile_footer_navbar {
+  display: none !important;
+}
+.mo_fo_navbar_content {
+  width: 100%;
+  padding: 10px 12%;
+  display: flex;
+  justify-content: space-between;
+}
+.mo_fo_navbar_content svg{
+    cursor: pointer;
+    color: #fff;
+}
+@media screen and (max-width: 992px) {
+    .mobile_footer_navbar {
+        background-color: var(--theme);
+        display: block !important;
+        position: sticky;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .mo_fo_navbar_content svg{
+        width: 27px;
+    }
+}

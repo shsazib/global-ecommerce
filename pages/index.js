@@ -3,6 +3,7 @@ import Campaign from "@/Components/Campaign/campaign";
 import HomeTopSlider from "@/Components/home-top-slider/HomeTopSlider";
 import Global_list from "@/Components/global-list/global_list";
 import Home_percent_off from "@/Components/home-percent-off/Home_percent_off";
+import Home_banner from "@/Components/home-banner/home_banner";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
             <Global_list />
           </div>
           <Campaign />
+          <div className="content_container py-5 ">
+            <Home_banner />
+          </div>
         </div>
       </div>
     </>
