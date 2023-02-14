@@ -8,7 +8,7 @@ const master = ({ children }) => {
     <>
       <Head>
         <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-        <title>MYCHOICE</title>
+        <title>Online Shop</title>
       </Head>
 
       <Navbar />

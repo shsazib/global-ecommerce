@@ -10,10 +10,10 @@
     align-items: center;
 }
 .single_global_list_icon{
-    font-size: 30px;
+    font-size: 40px;
 }
 .single_global_list h2{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     color: #222;
 }
@@ -24,7 +24,21 @@
 
 @media screen and (max-width: 992px) {
     .global_list_section{
-        margin: 16px 2%;
-        padding: 10px 5px;
+        padding: 10px 0px;
     }
+    .global_list_section{
+        grid-template-columns: repeat(2, 1fr);
+        border: none;
+        gap: 1rem;
+    }
+    .single_global_list{
+        border: 1px solid #eee;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .global_list_section{
+        grid-template-columns: 1fr;
+    }
+
 }

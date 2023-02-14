@@ -8,17 +8,19 @@ export default function Home() {
   return (
     <>
       <div className="home_section">
-        <div className="categories_slider content_container">
-          <AllCategories />
-          <div className="grid gap-4">
-            <HomeTopSlider />
-            <Home_percent_off />
+        <div className="home_section_content">
+          <div className="categories_slider content_container">
+            <AllCategories />
+            <div className="grid gap-4">
+              <HomeTopSlider />
+              <Home_percent_off />
+            </div>
           </div>
+          <div className="content_container">
+            <Global_list />
+          </div>
+          <Campaign />
         </div>
-        <div className="content_container">
-          <Global_list />
-        </div>
-        <Campaign />
       </div>
     </>
   );

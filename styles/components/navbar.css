@@ -72,6 +72,9 @@
 .navbar_top_right svg {
   cursor: pointer;
 }
+.phone_nav_search_btn{
+  display: none;
+}
 
 @media screen and (max-width: 1300px) {
   .navbar_top {
@@ -93,9 +96,32 @@
     display: none !important;
   }
   .navbar_search input {
-    width: 500px;
+    width: 300px;
   }
   .navbar_top {
-    padding: 10px 2%;
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar_top {
+    max-width: 500px;
+  }
+  .navbar_search{
+    display: none !important;
+  }
+  .phone_nav_search_btn{
+    display: block;
+  }
+  .navbar_logo{
+    width: 60px;
+  }
+}
+@media screen and (max-width: 576px){
+  .nav_top_container{
+    margin: 0 2%;
+  }
+  .navbar_top {
+    max-width: 100%;
   }
 }
