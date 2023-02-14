@@ -4,6 +4,7 @@ import HomeTopSlider from "@/Components/home-top-slider/HomeTopSlider";
 import Global_list from "@/Components/global-list/global_list";
 import Home_percent_off from "@/Components/home-percent-off/Home_percent_off";
 import Home_banner from "@/Components/home-banner/home_banner";
+import Popular_categories from "@/Components/popular-categories/popular_categories";
 
 export default function Home() {
   return (
@@ -24,6 +25,10 @@ export default function Home() {
           <div className="content_container py-5 ">
             <Home_banner />
           </div>
+          <Popular_categories />
+
+
+
         </div>
       </div>
     </>
