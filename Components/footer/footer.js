@@ -39,10 +39,9 @@ const Footer = () => {
             <div className="footer_useful_links">
               <h1>Useful Links</h1>
               <div className="grid gap-2">
-                <Link href="#">Term and Conditions</Link>
-                <Link href="#">Seller Policy</Link>
-                <Link href="#">Privacy policy</Link>
-                <Link href="#">Refund Policy</Link>
+                <Link href="/terms-and-conditions">Terms and Conditions</Link>
+                <Link href="/privacy-policy">Privacy policy</Link>
+                <Link href="/refund-policy">Refund Policy</Link>
               </div>
             </div>
             <div className="footer_account">

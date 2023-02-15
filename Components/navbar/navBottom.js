@@ -32,13 +32,13 @@ const navBottom = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="#">Products</Link>
+              <Link href="/products">Products</Link>
             </li>
             <li>
-              <Link href="#">Categories</Link>
+              <Link href="/categories">Categories</Link>
             </li>
             <li>
-              <Link href="#">Brands</Link>
+              <Link href="/brands">Brands</Link>
             </li>
             <li className="nav_sub_menu_container">
               <Link href="javascript:void(0)">
