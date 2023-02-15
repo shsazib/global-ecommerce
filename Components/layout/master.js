@@ -9,7 +9,7 @@ const master = ({ children }) => {
   return (
     <>
       <Head>
-        <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="logo/favicon.jpg" />
         <title>Online Shop</title>
       </Head>
 
