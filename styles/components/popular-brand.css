@@ -1,0 +1,24 @@
+.brand_section {
+  margin-bottom: 2rem;
+}
+.brand_single_content a {
+  padding: 0.5rem;
+}
+.brand_single_content {
+  border: 1px solid #ddd;
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  border-radius: 4px;
+}
+.brand_single_content:hover {
+  border: 1px solid var(--theme);
+}
+.brand_single_content span {
+  width: 100%;
+  background-color: var(--theme);
+  padding: 5px 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}

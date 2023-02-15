@@ -6,6 +6,7 @@ import Home_percent_off from "@/Components/home-percent-off/Home_percent_off";
 import Home_banner from "@/Components/home-banner/home_banner";
 import PopularCategories from "@/Components/popular-categories/popular_categories";
 import Top_cat_this_month from "@/Components/top-cat-this-month/top_cat_this_month";
+import Popular_brand from "@/Components/popular-brand/popular_brand";
 
 export default function Home() {
   return (
@@ -28,9 +29,7 @@ export default function Home() {
           </div>
           <PopularCategories />
           <Top_cat_this_month />
-
-
-
+          <Popular_brand />
         </div>
       </div>
     </>
