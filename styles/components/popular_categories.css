@@ -1,0 +1,21 @@
+
+.single_p_categories{
+    border: 1px solid var(--theme_opacity);
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    background-color: var(--theme_opacity);
+    color: #000;
+    transition: 0.2s;
+    font-weight: 500;
+}
+.single_p_categories:hover{
+    border: 1px solid var(--theme);
+
+}
+.single_p_categories img{
+    width: 100px;
+}

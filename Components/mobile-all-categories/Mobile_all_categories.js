@@ -2,10 +2,12 @@ import React from "react";
 import Link from "next/link";
 import { RiArrowDownSLine } from "react-icons/ri";
 
+
 const Mobile_all_categories = () => {
+  
   return (
     <>
-      <div className="mobile_all_categories ">
+      <div className="mobile_all_categories_close">
         <div className="mobile_nav_logo flex items-center justify-between mb-8">
           <Link href="/" className="w-16">
             <img src="logo/Logo.png"></img>

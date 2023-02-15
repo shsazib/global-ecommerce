@@ -1,6 +1,11 @@
 import React from "react";
 
 const mobile_footer_navbar = () => {
+
+
+
+
+
   return (
     <>
       <div className="mobile_footer_navbar">
