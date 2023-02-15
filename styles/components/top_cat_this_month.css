@@ -1,0 +1,43 @@
+.top_cat_this_month_container{
+    background-color: #eee5;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+.top_cat_this_month_h1{
+    font-size: calc(20px + (25 - 20) * (100vw - 320px) / (2100 - 320) );
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+.top_cat_this_month_section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.single_p_categories {
+    border: 1px solid var(--theme_opacity);
+    padding: 10px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    background-color: var(--theme_opacity);
+    color: #000;
+    transition: 0.2s;
+    font-weight: 500;
+  }
+  .single_p_categories:hover {
+    border: 1px solid var(--theme);
+  }
+  .single_p_categories img {
+    width: 100px;
+  }
+  .single_p_categories p{
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    line-height: 1.3em;
+  }

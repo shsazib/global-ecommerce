@@ -2,9 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { RiArrowDownSLine } from "react-icons/ri";
 
-
 const Mobile_all_categories = () => {
-  
   return (
     <>
       <div className="mobile_all_categories_close">

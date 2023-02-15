@@ -59,31 +59,31 @@ export default class PopularCategories extends Component {
         <Slider {...settings} className="popular_categories">
           <div className="px-2">
             <Link href="#" className="single_p_categories">
-              <img src="popular-categories/fashion.png" alt="img"></img>
+              <img src="categories/fashion.png" alt="img"></img>
               <p>Fashion</p>
             </Link>
           </div>
           <div className="px-2">
             <Link href="#" className="single_p_categories">
-              <img src="popular-categories/home.png" alt="img"></img>
+              <img src="categories/home.png" alt="img"></img>
               <p>Home</p>
             </Link>
           </div>
           <div className="px-2">
             <Link href="#" className="single_p_categories">
-              <img src="popular-categories/mobile.png" alt="img"></img>
+              <img src="categories/mobile.png" alt="img"></img>
               <p>Mobile</p>
             </Link>
           </div>
           <div className="px-2">
             <Link href="#" className="single_p_categories">
-              <img src="popular-categories/appliances.png" alt="img"></img>
+              <img src="categories/appliances.png" alt="img"></img>
               <p>Appliances</p>
             </Link>
           </div>
           <div className="px-2">
             <Link href="#" className="single_p_categories">
-              <img src="popular-categories/software.png" alt="img"></img>
+              <img src="categories/software.png" alt="img"></img>
               <p>Software</p>
             </Link>
           </div>
