@@ -8,7 +8,7 @@ import PopularCategories from "@/Components/popular-categories/popular_categorie
 import Top_cat_this_month from "@/Components/top-cat-this-month/top_cat_this_month";
 import Popular_brand from "@/Components/popular-brand/popular_brand";
 import Today_deals from "@/Components/today-deals/Today_deals";
-
+import Flash_sale from "@/Components/flash-sale/Flash_sale";
 
 export default function Home() {
   return (
@@ -31,8 +31,9 @@ export default function Home() {
           </div>
           <PopularCategories />
           <Top_cat_this_month />
-          <Popular_brand />
           <Today_deals />
+          <Flash_sale />
+          <Popular_brand />
         </div>
       </div>
     </>
