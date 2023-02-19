@@ -33,6 +33,9 @@
 .flash_add_cart{
     display: none;
 }
+.flash_product_name:hover p{
+  color: var(--theme);
+}
 
 @media screen and (max-width: 992px) {
   .single_flash_sale {

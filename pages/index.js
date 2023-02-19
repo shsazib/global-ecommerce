@@ -9,6 +9,8 @@ import Top_cat_this_month from "@/Components/top-cat-this-month/top_cat_this_mon
 import Popular_brand from "@/Components/popular-brand/popular_brand";
 import Today_deals from "@/Components/today-deals/Today_deals";
 import Flash_sale from "@/Components/flash-sale/Flash_sale";
+import Best_selling_product from "@/Components/best-selling-product/Best_selling_product";
+import Latest_products from "@/Components/latest-products/Latest_products";
 
 export default function Home() {
   return (
@@ -26,13 +28,15 @@ export default function Home() {
             <Global_list />
           </div>
           <Campaign />
-          <div className="content_container py-5 ">
+          <div className="content_container py-5">
             <Home_banner />
           </div>
           <PopularCategories />
           <Top_cat_this_month />
           <Today_deals />
           <Flash_sale />
+          <Best_selling_product />
+          <Latest_products />
           <Popular_brand />
         </div>
       </div>

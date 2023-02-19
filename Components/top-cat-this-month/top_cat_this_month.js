@@ -88,13 +88,13 @@ export default class Top_cat_this_month extends Component {
             </div>
             <div className="px-2">
               <Link href="#" className="single_p_categories">
-                <img src="empty.png" alt="img"></img>
+                <img src="empty_categories_bg.png" alt="img"></img>
                 <p>Men's Bottom Wear</p>
               </Link>
             </div>
             <div className="px-2">
               <Link href="#" className="single_p_categories">
-                <img src="empty.png" alt="img"></img>
+                <img src="empty_categories_bg.png" alt="img"></img>
                 <p>Washing Machines</p>
               </Link>
             </div>

@@ -89,25 +89,25 @@ export default class PopularCategories extends Component {
           </div>
           <div className="px-2">
             <Link href="#" className="single_p_categories">
-              <img src="empty.png" alt="img"></img>
+              <img src="empty_categories_bg.png" alt="img"></img>
               <p>Automobiles</p>
             </Link>
           </div>
           <div className="px-2">
             <Link href="#" className="single_p_categories">
-              <img src="empty.png" alt="img"></img>
+              <img src="empty_categories_bg.png" alt="img"></img>
               <p>Automobiles</p>
             </Link>
           </div>
           <div className="px-2">
             <Link href="#" className="single_p_categories">
-              <img src="empty.png" alt="img"></img>
+              <img src="empty_categories_bg.png" alt="img"></img>
               <p>Automobiles</p>
             </Link>
           </div>
           <div className="px-2">
             <Link href="#" className="single_p_categories">
-              <img src="empty.png" alt="img"></img>
+              <img src="empty_categories_bg.png" alt="img"></img>
               <p>Automobiles</p>
             </Link>
           </div>

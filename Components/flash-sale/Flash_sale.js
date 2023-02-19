@@ -23,7 +23,7 @@ export default class Flash_sale extends Component {
       return (
         <div className="flash_sale_section content_container">
           <SectionTitle title="Flash Sale" link="#" view_more="More Products" />
-          <Slider {...settings} className="flash_sale">
+          <Slider {...settings} className="flash_sale grid gap-3">
             <Single_flash_sale
             product_img = "product/air buds.png"
             product_discount_price = "15, 000"

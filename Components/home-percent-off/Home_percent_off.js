@@ -3,7 +3,7 @@ import React from "react";
 
 const Home_percent_off = () => {
   return (
-    <div className="percent_off_section gap-4">
+    <div className="percent_off_section gap-1 sm:gap-2 md:gap-4">
       <Link href="#">
         <img src="home-percent-off/img-1.png"></img>
       </Link>

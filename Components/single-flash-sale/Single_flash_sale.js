@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 // import { BsFillSuitHeartFill } from "react-icons/bs";
 // import { SlRefresh } from "react-icons/sl";
@@ -32,13 +33,17 @@ const Single_flash_sale = ({
     <>
       <div className="single_flash_sale_section px-2">
         <div className="single_flash_sale">
+          <Link href="#">
           <img src={product_img} alt="product img"></img>
+          </Link>
           <div className="flash_product_content">
             <div className="flex gap-2 items-center flash_price ">
               <del>{product_discount_price}</del>
               <p>{product_price}</p>
             </div>
-            <p className="flash_product_name">{product_name}</p>
+            <Link href="#" className="flash_product_name">
+            <p>{product_name}</p>
+            </Link>
             <div className="flex items-center">
              <div  className="flash_review flex items-center">
              {product_review}
