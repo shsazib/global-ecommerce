@@ -14,7 +14,7 @@ const SingleProduct = ({
 }) => {
   return (
     <>
-      <div className="px-2">
+      <div className="">
         <div className="single_product rounded">
           <div className="product_img">
             <Link href="#">

@@ -51,6 +51,9 @@ export default class Best_selling_product extends Component {
           view_more="More Products"
         />
         <Slider {...settings} className="best_selling_product">
+
+          
+          <div className="px-2">
           <SingleProduct
             product_img="empty_cart_bg.png"
             product_price="12, 999"
@@ -60,6 +63,8 @@ export default class Best_selling_product extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/watch.png"
             product_price="12, 999"
@@ -69,6 +74,8 @@ export default class Best_selling_product extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/pc.png"
             product_price="12, 999"
@@ -78,6 +85,8 @@ export default class Best_selling_product extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="empty_cart_bg.png"
             product_price="12, 999"
@@ -87,6 +96,8 @@ export default class Best_selling_product extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="empty_cart_bg.png"
             product_price="12, 999"
@@ -96,6 +107,8 @@ export default class Best_selling_product extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/iphone 12.png"
             product_price="12, 999"
@@ -105,6 +118,8 @@ export default class Best_selling_product extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+          </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/pc.png"
             product_price="12, 999"
@@ -114,6 +129,9 @@ export default class Best_selling_product extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
+
           <SingleProduct
             product_img="product/watch.png"
             product_price="12, 999"
@@ -122,7 +140,8 @@ export default class Best_selling_product extends Component {
             product_review={<AiFillStar />}
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
-          />
+            />
+            </div>
         </Slider>
       </div>
     );

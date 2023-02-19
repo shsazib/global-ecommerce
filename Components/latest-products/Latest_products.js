@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SingleProduct from "../single-product/single-product";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import Link from "next/link";
 
 export default class Latest_products extends Component {
   render() {
@@ -50,6 +51,7 @@ export default class Latest_products extends Component {
           view_more="More Products"
         />
         <Slider {...settings}>
+          <div className="px-2">
           <SingleProduct
             product_img="empty_cart_bg.png"
             product_price="12, 999"
@@ -59,6 +61,8 @@ export default class Latest_products extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/watch.png"
             product_price="12, 999"
@@ -68,6 +72,8 @@ export default class Latest_products extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/pc.png"
             product_price="12, 999"
@@ -77,6 +83,8 @@ export default class Latest_products extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+          </div>
+          <div className="px-2">
           <SingleProduct
             product_img="empty_cart_bg.png"
             product_price="12, 999"
@@ -86,6 +94,8 @@ export default class Latest_products extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="empty_cart_bg.png"
             product_price="12, 999"
@@ -95,6 +105,8 @@ export default class Latest_products extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/iphone 12.png"
             product_price="12, 999"
@@ -104,6 +116,8 @@ export default class Latest_products extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/pc.png"
             product_price="12, 999"
@@ -113,6 +127,8 @@ export default class Latest_products extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+           </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/watch.png"
             product_price="12, 999"
@@ -122,6 +138,7 @@ export default class Latest_products extends Component {
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
           />
+          </div>
         </Slider>
       </div>
     );

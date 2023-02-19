@@ -46,42 +46,52 @@ export default class Today_deals extends Component {
       <div className="today_deals_section content_container mb-[40px]">
         <SectionTitle title="Today Deals" link="#" view_more="More Products" />
         <Slider {...settings} className="today_deals_content">
-          <SingleProduct
-            product_img="product/iphone 8.png"
-            product_price="12, 999"
-            product_discount="15, 999"
-            Product_name="Apple iPhone 8 Plus, 64GB, Silver - Unlocked (Renewed Premium)"
-            product_review={<AiFillStar />}
-            product_review_empty={<AiOutlineStar />}
-            product_rating="(12)"
-          />
-          <SingleProduct
-            product_img="product/watch.png"
-            product_price="12, 999"
-            product_discount="15, 999"
-            Product_name="Garmin Venu 2S, Smaller-sized GPS Smartwatch with Advanced Health Monitoring and Fitness Features, Rose Gold Bezel with White Case and Silicone Band"
-            product_review={<AiFillStar />}
-            product_review_empty={<AiOutlineStar />}
-            product_rating="(12)"
-          />
-          <SingleProduct
-            product_img="product/pc.png"
-            product_price="12, 999"
-            product_discount="15, 999"
-            Product_name="HP 24-inch All-in-One Desktop Computer, AMD Athlon Silver 3050U Processor, 8 GB RAM, 256 GB SSD, Windows 10 Home (24-dd0010, White)"
-            product_review={<AiFillStar />}
-            product_review_empty={<AiOutlineStar />}
-            product_rating="(12)"
-          />
-          <SingleProduct
-            product_img="product/air buds.png"
-            product_price="12, 999"
-            product_discount="15, 999"
-            Product_name="Garmin Venu 2S, Smaller-sized GPS Smartwatch with Advanced Health Monitoring and Fitness Features, Rose Gold Bezel with White Case and Silicone Band"
-            product_review={<AiFillStar />}
-            product_review_empty={<AiOutlineStar />}
-            product_rating="(12)"
-          />
+          <div className="px-2">
+            <SingleProduct
+              product_img="product/iphone 8.png"
+              product_price="12, 999"
+              product_discount="15, 999"
+              Product_name="Apple iPhone 8 Plus, 64GB, Silver - Unlocked (Renewed Premium)"
+              product_review={<AiFillStar />}
+              product_review_empty={<AiOutlineStar />}
+              product_rating="(12)"
+            />
+          </div>
+
+          <div className="px-2">
+            <SingleProduct
+              product_img="product/watch.png"
+              product_price="12, 999"
+              product_discount="15, 999"
+              Product_name="Garmin Venu 2S, Smaller-sized GPS Smartwatch with Advanced Health Monitoring and Fitness Features, Rose Gold Bezel with White Case and Silicone Band"
+              product_review={<AiFillStar />}
+              product_review_empty={<AiOutlineStar />}
+              product_rating="(12)"
+            />
+          </div>
+          <div className="px-2">
+            <SingleProduct
+              product_img="product/pc.png"
+              product_price="12, 999"
+              product_discount="15, 999"
+              Product_name="HP 24-inch All-in-One Desktop Computer, AMD Athlon Silver 3050U Processor, 8 GB RAM, 256 GB SSD, Windows 10 Home (24-dd0010, White)"
+              product_review={<AiFillStar />}
+              product_review_empty={<AiOutlineStar />}
+              product_rating="(12)"
+            />
+          </div>
+          <div className="px-2">
+            <SingleProduct
+              product_img="product/air buds.png"
+              product_price="12, 999"
+              product_discount="15, 999"
+              Product_name="Garmin Venu 2S, Smaller-sized GPS Smartwatch with Advanced Health Monitoring and Fitness Features, Rose Gold Bezel with White Case and Silicone Band"
+              product_review={<AiFillStar />}
+              product_review_empty={<AiOutlineStar />}
+              product_rating="(12)"
+            />
+          </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/laptop.png"
             product_price="12, 999"
@@ -90,7 +100,9 @@ export default class Today_deals extends Component {
             product_review={<AiFillStar />}
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
-          />
+            />
+            </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/iphone 12.png"
             product_price="12, 999"
@@ -99,7 +111,9 @@ export default class Today_deals extends Component {
             product_review={<AiFillStar />}
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
-          />
+            />
+            </div>
+          <div className="px-2">
           <SingleProduct
             product_img="product/pc.png"
             product_price="12, 999"
@@ -108,7 +122,9 @@ export default class Today_deals extends Component {
             product_review={<AiFillStar />}
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
-          />
+            />
+            </div>
+          <div className="px-2">
           <SingleProduct
             product_img="empty_cart_bg.png"
             product_price="12, 999"
@@ -117,7 +133,8 @@ export default class Today_deals extends Component {
             product_review={<AiFillStar />}
             product_review_empty={<AiOutlineStar />}
             product_rating="(12)"
-          />
+            />
+            </div>
         </Slider>
       </div>
     );

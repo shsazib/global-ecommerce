@@ -98,7 +98,6 @@ export default class Top_cat_this_month extends Component {
                 <p>Washing Machines</p>
               </Link>
             </div>
-            
           </Slider>
         </div>
       </div>
