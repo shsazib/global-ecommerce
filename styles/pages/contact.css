@@ -1,0 +1,28 @@
+.contact_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin: 40px auto;
+}
+.contact_container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+.message_input label {
+  font-weight: 400;
+  color: #666;
+}
+.message_input input,
+.message_input textarea {
+  border: 1px solid #ddd;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+.message_input textarea {
+    height: 200px;
+}
+.message_input input:focus,
+.message_input textarea:focus {
+  outline: 1px solid var(--theme);
+}

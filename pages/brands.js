@@ -7,7 +7,7 @@ const Brands = () => {
     <>
       <div className="brands_section_container content_container mb-[40px]">
         <Section_title title="All Brands" />
-        <div className="all_brand_content grid gap-5">
+        <div className="all_brand_content grid gap-2 md:gap-5">
           <div className="brand_single_content ">
             <Link href="#">
               <img src="brand/dell.png"></img>
