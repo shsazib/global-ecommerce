@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { BsArrowRightShort } from "react-icons/bs";
 
 export default class PopularCategories extends Component {
   render() {
@@ -55,6 +56,7 @@ export default class PopularCategories extends Component {
           title="Popular Categories"
           link="#"
           view_more="Browse All Categories"
+          icon = {<BsArrowRightShort />}
         />
         <Slider {...settings} className="popular_categories">
           <div className="px-2">

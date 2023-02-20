@@ -1,4 +1,5 @@
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { BsArrowRightShort } from "react-icons/bs";
 import SingleProduct from "../single-product/single-product";
 import SectionTitle from "../section-title/section-title";
 import React, { Component } from "react";
@@ -44,7 +45,7 @@ export default class Today_deals extends Component {
     };
     return (
       <div className="today_deals_section content_container mb-[40px]">
-        <SectionTitle title="Today Deals" link="#" view_more="More Products" />
+        <SectionTitle title="Today Deals" link="#" view_more="More Products" icon={<BsArrowRightShort />} />
         <Slider {...settings} className="today_deals_content">
           <div className="px-2">
             <SingleProduct

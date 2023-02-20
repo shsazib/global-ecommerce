@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { BsArrowRightShort } from "react-icons/bs";
 
 export default class Popular_brand extends Component {
   render() {
@@ -55,6 +56,7 @@ export default class Popular_brand extends Component {
           title="Popular Brand"
           link="#"
           view_more="Browse All Brands"
+          icon = {<BsArrowRightShort />}
         />
         <Slider {...settings} className="brand_content">
           <div className="px-2">

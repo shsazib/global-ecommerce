@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SingleProduct from "../single-product/single-product";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { BsArrowRightShort } from "react-icons/bs";
 
 export default class Best_selling_product extends Component {
   render() {
@@ -49,6 +50,7 @@ export default class Best_selling_product extends Component {
           title="Best Selling Product"
           link="#"
           view_more="More Products"
+          icon = {<BsArrowRightShort />}
         />
         <Slider {...settings} className="best_selling_product">
 

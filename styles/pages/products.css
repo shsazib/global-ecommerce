@@ -28,12 +28,11 @@
   font-family: "Poppins", sans-serif;
 }
 
-.cat_div{
-    display: flex;
+.cat_div {
+  display: flex;
 
-align-items: center;}
-
-
+  align-items: center;
+}
 
 /* check box style */
 .spsc_input {
@@ -67,62 +66,59 @@ align-items: center;}
   color: var(--theme);
 }
 
-.product_sort select{
-    padding: 10px;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    outline: none;
+.product_sort select {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  outline: none;
 }
-.all_product{
-    margin: 20px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
+.all_product {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
 }
-.product_show_more_btn{
-    display: grid;
-    justify-content: center;
-    margin-top: 10px;
+.product_show_more_btn {
+  display: grid;
+  justify-content: center;
+  margin-top: 10px;
 }
-
-
-
 
 @media screen and (max-width: 1300px) {
-    .product_section{
-        width: 950px;
-    }
-    .all_product{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+  .product_section {
+    width: 950px;
+  }
+  .all_product {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .product_section{
-        width: 700px;
-    }
-    .all_product{
-        grid-template-columns: 1fr 1fr;
-    }
+  .product_section {
+    width: 700px;
+  }
+  .all_product {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media screen and (max-width: 768px) {
-    .product_container {
-        grid-template-columns: 1fr;
-      }
-    .product_section{
-        width: 500px;
-    }
-    .all_product{
-        grid-template-columns: 1fr 1fr;
-    }
+  .product_container {
+    grid-template-columns: 1fr;
+  }
+  .product_section {
+    width: 500px;
+  }
+  .all_product {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media screen and (max-width: 576px) {
-    .product_section{
-        width: 100%;
-        
-        padding: 0 2%;
-    }
-    .all_product{
-        grid-template-columns: 1fr 1fr;
-    }
+  .product_section {
+    width: 100%;
+
+    padding: 0 2%;
+  }
+  .all_product {
+    grid-template-columns: 1fr 1fr;
+  }
 }

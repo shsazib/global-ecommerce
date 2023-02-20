@@ -190,7 +190,6 @@ const Product = () => {
                   <label for="Gold">Gold</label>
                 </div>
               </div>
-              
             </div>
           </div>
           <div className="">
@@ -323,7 +322,7 @@ const Product = () => {
               />
             </div>
             <div className="product_show_more_btn">
-            <button className="btn_1">Show More</button>
+              <button className="btn_1">Show More</button>
             </div>
           </div>
         </div>

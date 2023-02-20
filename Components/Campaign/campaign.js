@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { BsArrowRightShort } from "react-icons/bs";
 
 export default class Campaign extends Component {
   render() {
@@ -43,7 +44,7 @@ export default class Campaign extends Component {
     };
     return (
       <div className="campaign_section content_container">
-        <SectionTitle title="Campaign" link="#" view_more="More Campaign" />
+        <SectionTitle title="Campaign" link="#" view_more="More Campaign" icon = {<BsArrowRightShort />} />
         <Slider {...settings} className="campaign_content">
           <div className="px-2">
             <div className="campaign_single_content ">

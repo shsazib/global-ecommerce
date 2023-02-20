@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Single_flash_sale from "../single-flash-sale/Single_flash_sale";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { BsArrowRightShort } from "react-icons/bs";
 
 
 
@@ -22,7 +23,7 @@ export default class Flash_sale extends Component {
       };
       return (
         <div className="flash_sale_section content_container">
-          <SectionTitle title="Flash Sale" link="#" view_more="More Products" />
+          <SectionTitle title="Flash Sale" link="#" view_more="More Products" icon = {<BsArrowRightShort />} />
           <Slider {...settings} className="flash_sale grid gap-3">
             <Single_flash_sale
             product_img = "product/air buds.png"
