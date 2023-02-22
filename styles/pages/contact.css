@@ -20,9 +20,51 @@
   border-radius: 5px;
 }
 .message_input textarea {
-    height: 200px;
+  height: 200px;
 }
 .message_input input:focus,
 .message_input textarea:focus {
   outline: 1px solid var(--theme);
+}
+
+.message_content {
+  color: #333;
+}
+.contact_follow_us_icon .contact_single_icon {
+  font-size: 35px;
+  padding: 5px;
+  color: #333;
+  cursor: pointer;
+  border: 1px solid #333;
+}
+.contact_follow_us_icon .contact_single_icon:hover {
+  color: var(--theme);
+  border: 1px solid var(--theme);
+}
+.contact_follow_us iframe {
+  width: 100%;
+  height: 180px;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+  .contact_container{
+    width: 950px
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contact_container{
+    width: 700px;
+    gap: 2rem
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_container{
+    width: 100%;
+    padding: 0 2%;
+    grid-template-columns: 1fr;
+  }
 }

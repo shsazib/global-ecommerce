@@ -112,8 +112,8 @@ const navTop = () => {
                 <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
               </svg>
               <div className="nav_login_register grid items-center font-caveat">
-                <Link href="#">Sign In</Link>
-                <Link href="#">Register</Link>
+                <Link href="/login">Sign In</Link>
+                <Link href="/register">Register</Link>
               </div>
             </div>
           </div>
