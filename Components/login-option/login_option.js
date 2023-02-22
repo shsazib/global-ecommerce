@@ -1,8 +1,14 @@
+import React, { useState } from "react";
 import Link from "next/link";
-import React from "react";
 import { BsFacebook, BsGoogle } from "react-icons/bs";
 
-const login_option = () => {
+const login_option = ({ link, title }) => {
+  const [logChange, setLogChange] = useState();
+
+  const handelLog = () => {
+    setLogChange(!logChange);
+  };
+
   return (
     <>
       <div className="login_option grid gap-4">
@@ -21,12 +27,13 @@ const login_option = () => {
           </div>
         </div>
         <h2>
-          Don't have an account?{" "}
+          Don't have an account?
           <Link
+            onClick={handelLog}
             className="font-medium hover:text-[var(--theme)]"
-            href="/register"
+            href={link}
           >
-            Sign Up
+            {title}
           </Link>
         </h2>
       </div>

@@ -55,9 +55,9 @@ const navBottom = () => {
               </ul>
             </li>
           </ul>
-          <div className="">
+          <Link href="tel:88010000000000">
             <p>+88010000000000</p>
-          </div>
+          </Link>
         </nav>
       </div>
     </>
