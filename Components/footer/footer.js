@@ -47,8 +47,8 @@ const Footer = () => {
             <div className="footer_account">
               <h1>My Account</h1>
               <div className="grid gap-2">
-                <Link href="#">Login</Link>
-                <Link href="#">LoginCreate Account</Link>
+                <Link href="/login">Login</Link>
+                <Link href="/register">Create Account</Link>
               </div>
             </div>
             <div className="footer_about">

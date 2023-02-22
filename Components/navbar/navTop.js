@@ -45,55 +45,72 @@ const navTop = () => {
               <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
               <path d="M21 21l-6 -6"></path>
             </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-heart"
-              width="30"
-              height="30"
-              viewBox="0 0 24 24"
-              stroke-width="1"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-refresh"
-              width="30"
-              height="30"
-              viewBox="0 0 24 24"
-              stroke-width="1"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"></path>
-              <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"></path>
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-shopping-cart"
-              width="30"
-              height="30"
-              viewBox="0 0 24 24"
-              stroke-width="1"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
-              <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
-              <path d="M17 17h-11v-14h-2"></path>
-              <path d="M6 5l14 1l-1 7h-13"></path>
-            </svg>
+            <Link href="/compare" className="relative">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-heart"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+              </svg>
+
+              <span className="absolute text-[13px] top-[10px] right-[-10px] bg-[var(--theme)] w-[20px] h-[20px] rounded-full grid items-center justify-center text-white">
+                <p>0</p>
+              </span>
+            </Link>
+            <Link href="/compare" className="relative">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-refresh"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"></path>
+                <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"></path>
+              </svg>
+              <span className="absolute text-[13px] top-[10px] right-[-10px] bg-[var(--theme)] w-[20px] h-[20px] rounded-full grid items-center justify-center text-white">
+                <p>0</p>
+              </span>
+            </Link>
+            <Link href="/cart" className="relative">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-shopping-cart"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 17h-11v-14h-2"></path>
+                <path d="M6 5l14 1l-1 7h-13"></path>
+              </svg>
+
+              <span className="absolute text-[13px] top-[10px] right-[-10px] bg-[var(--theme)] w-[20px] h-[20px] rounded-full grid items-center justify-center text-white">
+                <p>0</p>
+              </span>
+            </Link>
             <div className="sign_reg flex items-center gap-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
