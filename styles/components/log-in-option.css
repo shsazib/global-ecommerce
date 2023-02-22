@@ -1,0 +1,30 @@
+.or_continue_with {
+  position: relative;
+  width: 100%;
+}
+.or_continue_with p {
+  position: absolute;
+  background-color: #fff;
+  padding: 5px 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login_social_option_fb {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+}
+.login_social_option_fb:hover {
+  background-color: #0571e6;
+  color: #fff;
+}
+.login_social_option_google {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+.login_social_option_google:hover {
+  background-color: #ea4335;
+  color: #fff;
+}

@@ -1,0 +1,41 @@
+.login_content {
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  margin: 40px auto;
+  padding: 20px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  border-radius: 5px;
+}
+.phone_input input {
+  width: 350px !important;
+  padding: 20px;
+  border-radius: 5px;
+}
+.login_email {
+  justify-items: left;
+}
+.login_email input {
+  padding: 8px;
+  border: 1px solid #eee;
+  width: 350px;
+  border-radius: 5px;
+  outline: none;
+}
+
+@media screen and (max-width: 576px) {
+  .login_content {
+    width: 100%;
+  }
+  .login_section {
+    margin: 0 2%;
+  }
+  .phone_input input {
+    width: 300px !important;
+  }
+  .login_email input {
+    width: 300px !important;
+  }
+}

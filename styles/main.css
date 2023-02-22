@@ -22,4 +22,6 @@
 @import url('./pages/categories.css');
 @import url('./pages/brands.css');
 @import url('./pages/contact.css');
+@import url('./pages/login.css');
+@import url('./components/log-in-option.css');
 @import url('./components/footer.css');
