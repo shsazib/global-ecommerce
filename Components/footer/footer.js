@@ -61,11 +61,21 @@ const Footer = () => {
                   products daily.
                 </p>
                 <div className="footer_icon flex gap-5">
-                  <FaFacebookF className="footer_single_icon" />
-                  <FaTwitter className="footer_single_icon" />
-                  <FaLinkedinIn className="footer_single_icon" />
-                  <FaInstagram className="footer_single_icon" />
-                  <FaYoutube className="footer_single_icon" />
+                  <Link href="#">
+                    <FaFacebookF className="footer_single_icon" />
+                  </Link>
+                  <Link href="#">
+                    <FaTwitter className="footer_single_icon" />
+                  </Link>
+                  <Link href="#">
+                    <FaLinkedinIn className="footer_single_icon" />
+                  </Link>
+                  <Link href="#">
+                    <FaInstagram className="footer_single_icon" />
+                  </Link>
+                  <Link href="#">
+                    <FaYoutube className="footer_single_icon" />
+                  </Link>
                 </div>
               </div>
             </div>
