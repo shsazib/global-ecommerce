@@ -20,10 +20,10 @@ const register = () => {
             <p>Sign up to continue shopping</p>
           </div>
           <div className="grid gap-2">
-            <div className="login_email grid gap-2">
+            <div className="login_input grid gap-2">
               <input type="text" placeholder="First Name" />
             </div>
-            <div className="login_email grid gap-2">
+            <div className="login_input grid gap-2">
               <input type="text" placeholder="Last Name" />
             </div>
             {changeLogin ? (
@@ -36,7 +36,7 @@ const register = () => {
                 />
               </div>
             ) : (
-              <div className="login_email grid gap-2">
+              <div className="login_input grid gap-2">
                 <input type="email" placeholder="Enter your Email" />
               </div>
             )}
@@ -56,10 +56,10 @@ const register = () => {
               ""
             ) : (
               <div className="grid gap-2">
-                <div className="login_email grid gap-2">
+                <div className="login_input grid gap-2">
                   <input type="password" placeholder="Password" />
                 </div>
-                <div className="login_email grid gap-2">
+                <div className="login_input grid gap-2">
                   <input
                     type="password"
                     placeholder="Confirmed your Password"

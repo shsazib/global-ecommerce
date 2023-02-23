@@ -30,7 +30,7 @@ const login = () => {
                 />
               </div>
             ) : (
-              <div className="login_email grid gap-2">
+              <div className="login_input grid gap-2">
                 <input type="email" placeholder="Enter your Email" />
               </div>
             )}
@@ -49,7 +49,7 @@ const login = () => {
             {changeLogin ? (
               ""
             ) : (
-              <div className="login_email grid gap-2">
+              <div className="login_input grid gap-2">
                 <input type="password" placeholder="Enter your Password" />
               </div>
             )}

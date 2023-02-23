@@ -66,7 +66,6 @@ const navBottom = () => {
         </nav>
       </div>
 
-      
       <div className="content_container">
         <div className="nav_all_cat">
           {categoryToggle ? <AllCategories /> : ""}

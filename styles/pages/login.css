@@ -14,15 +14,18 @@
   padding: 20px;
   border-radius: 5px;
 }
-.login_email {
+.login_input {
   justify-items: left;
 }
-.login_email input {
+.login_input input {
   padding: 8px;
   border: 1px solid #eee;
   width: 350px;
   border-radius: 5px;
   outline: none;
+}
+.login_input input:focus{
+  border: 1px solid var(--theme);
 }
 
 @media screen and (max-width: 576px) {
@@ -35,7 +38,7 @@
   .phone_input input {
     width: 300px !important;
   }
-  .login_email input {
+  .login_input input {
     width: 300px !important;
   }
 }

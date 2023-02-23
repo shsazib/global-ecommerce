@@ -17,11 +17,11 @@ const login_option = ({ link, title }) => {
           <hr />
         </div>
         <div className="login_social_option flex items-center justify-around gap-2 mt-3">
-          <div className="login_social_option_fb flex items-center gap-2 justify-center cursor-pointer">
+          <div className="login_social_option_fb flex items-center gap-2 justify-center cursor-pointer rounded">
             <BsFacebook />
             <span>Facebook</span>
           </div>
-          <div className="login_social_option_google flex items-center gap-2 justify-center cursor-pointer">
+          <div className="login_social_option_google flex items-center gap-2 justify-center cursor-pointer rounded">
             <BsGoogle />
             <span>Google</span>
           </div>
