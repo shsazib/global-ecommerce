@@ -3,6 +3,7 @@ import Link from "next/link";
 import { GoTriangleDown } from "react-icons/go";
 import { useApp } from "@/Global-fun/AppProvider";
 import AllCategories from "../all-categories/all-categories";
+import { FaList } from "react-icons/fa";
 
 const navBottom = () => {
   const { categoryToggle, setCategoryToggle } = useApp();
