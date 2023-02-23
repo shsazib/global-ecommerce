@@ -17,11 +17,11 @@ const navTop = () => {
               width="30"
               height="30"
               viewBox="0 0 24 24"
-              stroke-width="1"
+              strokeWidth="1"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
@@ -35,11 +35,11 @@ const navTop = () => {
               width="30"
               height="30"
               viewBox="0 0 24 24"
-              stroke-width="1"
+              strokeWidth="1"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
@@ -48,15 +48,15 @@ const navTop = () => {
             <Link href="/compare" className="relative">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-heart"
+                className="icon icon-tabler icon-tabler-heart"
                 width="30"
                 height="30"
                 viewBox="0 0 24 24"
-                stroke-width="1"
+                strokeWidth="1"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
@@ -69,15 +69,15 @@ const navTop = () => {
             <Link href="/compare" className="relative">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-refresh"
+                className="icon icon-tabler icon-tabler-refresh"
                 width="30"
                 height="30"
                 viewBox="0 0 24 24"
-                stroke-width="1"
+                strokeWidth="1"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"></path>
@@ -90,15 +90,15 @@ const navTop = () => {
             <Link href="/cart" className="relative">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-shopping-cart"
+                className="icon icon-tabler icon-tabler-shopping-cart"
                 width="30"
                 height="30"
                 viewBox="0 0 24 24"
-                stroke-width="1"
+                strokeWidth="1"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
@@ -114,15 +114,15 @@ const navTop = () => {
             <div className="sign_reg flex items-center gap-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-user"
+                className="icon icon-tabler icon-tabler-user"
                 width="30"
                 height="30"
                 viewBox="0 0 24 24"
-                stroke-width="1"
+                strokeWidth="1"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>

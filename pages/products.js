@@ -3,11 +3,14 @@ import React, { useState } from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 const Product = () => {
-  const [catChange, setCatChange] = useState();
 
-  const HandelCatChange = () => {
-    setCatChange(!catChange);
-  };
+  function handleActive(target) {
+    if (document.querySelector('.'+target).classList.contains('hidden')) {
+      document.querySelector('.'+target).classList = `${target} spsc_details`;
+    } else {
+      document.querySelector('.'+target).classList = `${target} hidden`;
+    }
+  }
 
   return (
     <>
@@ -16,27 +19,27 @@ const Product = () => {
           <div className="product_side_categories">
             <div className="single_product_side_categories">
               <div
-                className="flex justify-between items-center font-medium select-none cursor-pointer"
-                onClick={HandelCatChange}
+                className="single_psc_list flex justify-between items-center font-medium select-none cursor-pointer"
+                onClick={(e) => handleActive('all_category')}
               >
                 <p>All Categories</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-chevron-down"
+                  className="icon icon-tabler icon-tabler-chevron-down"
                   width="22"
                   height="22"
                   viewBox="0 0 24 24"
-                  stroke-width="1"
+                  strokeWidth="1"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                   <path d="M6 9l6 6l6 -6"></path>
                 </svg>
               </div>
-              <div className={catChange ? "spsc_details" : "hidden"}>
+              <div className="hidden all_category">
                 <div className="flex justify-between items-center pt-1 pr-2 cursor-pointer">
                   <p>Appliances</p>
                   <span>10</span>
@@ -70,27 +73,27 @@ const Product = () => {
 
             <div className="single_product_side_categories">
               <div
-                className="flex justify-between items-center font-medium select-none cursor-pointer"
-                onClick={HandelCatChange}
+                className="single_psc_list flex justify-between items-center font-medium select-none cursor-pointer"
+                onClick={() => handleActive('brand')}
               >
                 <p>Brand</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-chevron-down"
+                  className="icon icon-tabler icon-tabler-chevron-down"
                   width="22"
                   height="22"
                   viewBox="0 0 24 24"
-                  stroke-width="1"
+                  strokeWidth="1"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                   <path d="M6 9l6 6l6 -6"></path>
                 </svg>
               </div>
-              <div className={catChange ? "spsc_details" : "hidden"}>
+              <div className="brand hidden">
                 <div className=" cat_div flex justify-start items-center pt-2  cursor-pointer">
                   <input type="checkbox" id="UPS" className="spsc_input" />
                   <label for="UPS">UPS</label>
@@ -108,28 +111,28 @@ const Product = () => {
 
             <div className="single_product_side_categories">
               <div
-                className="flex justify-between items-center font-medium select-none cursor-pointer"
-                onClick={HandelCatChange}
+                className=" single_psc_list flex justify-between items-center font-medium select-none cursor-pointer"
+                onClick={() => handleActive('size')}
               >
                 <p>Size</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-chevron-down"
+                  className="icon icon-tabler icon-tabler-chevron-down"
                   width="22"
                   height="22"
                   viewBox="0 0 24 24"
-                  stroke-width="1"
+                  strokeWidth="1"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                   <path d="M6 9l6 6l6 -6"></path>
                 </svg>
               </div>
 
-              <div className={catChange ? "spsc_details" : "hidden"}>
+              <div className="size hidden">
                 <div className=" cat_div flex justify-start items-center pt-2  cursor-pointer">
                   <input type="checkbox" id="SM" className="spsc_input" />
                   <label for="SM">S</label>
@@ -151,28 +154,28 @@ const Product = () => {
 
             <div className="single_product_side_categories">
               <div
-                className="flex justify-between items-center font-medium select-none cursor-pointer"
-                onClick={HandelCatChange}
+                className=" single_psc_list flex justify-between items-center font-medium select-none cursor-pointer"
+                onClick={() => handleActive('color')}
               >
                 <p>Color</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-chevron-down"
+                  className="icon icon-tabler icon-tabler-chevron-down"
                   width="22"
                   height="22"
                   viewBox="0 0 24 24"
-                  stroke-width="1"
+                  strokeWidth="1"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                   <path d="M6 9l6 6l6 -6"></path>
                 </svg>
               </div>
 
-              <div className={catChange ? "spsc_details" : "hidden"}>
+              <div className="hidden color">
                 <div className=" cat_div flex justify-start items-center pt-2  cursor-pointer">
                   <input type="checkbox" id="red" className="spsc_input" />
                   <label for="red">Red</label>

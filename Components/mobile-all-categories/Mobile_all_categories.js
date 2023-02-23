@@ -1,26 +1,36 @@
 import React from "react";
 import Link from "next/link";
 import { RiArrowDownSLine } from "react-icons/ri";
+import { useApp } from "@/Global-fun/AppProvider";
 
 const Mobile_all_categories = () => {
+  const { phoneCatToggle, phoneCatToggleHandel } = useApp();
+
   return (
     <>
-      <div className="mobile_all_categories_close">
+      <div
+        className={
+          phoneCatToggle
+            ? "mobile_all_categories_open"
+            : "mobile_all_categories_close"
+        }
+      >
         <div className="mobile_nav_logo flex items-center justify-between mb-8">
           <Link href="/" className="w-16">
             <img src="logo/Logo.png"></img>
           </Link>
           <svg
+            onClick={phoneCatToggleHandel}
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-x"
+            className="icon icon-tabler icon-tabler-x"
             width="26"
             height="26"
             viewBox="0 0 24 24"
-            stroke-width="1"
+            strokeWidth="1"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M18 6l-12 12"></path>

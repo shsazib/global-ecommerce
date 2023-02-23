@@ -80,6 +80,32 @@
   display: none;
 }
 
+
+
+
+
+
+
+.nav_bottom_first{
+  position: relative;
+}
+.nav_all_cat{
+  position: absolute;
+  z-index: 999;
+  display: grid;
+  grid-template-columns: 280px auto;
+  background-color: #fff ;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1300px) {
   .navbar_top {
     width: 950px;

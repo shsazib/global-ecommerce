@@ -11,8 +11,10 @@ import Today_deals from "@/Components/today-deals/Today_deals";
 import Flash_sale from "@/Components/flash-sale/Flash_sale";
 import Best_selling_product from "@/Components/best-selling-product/Best_selling_product";
 import Latest_products from "@/Components/latest-products/Latest_products";
+import { useApp } from "@/Global-fun/AppProvider";
+import { useEffect } from "react";
 
-export default function Home() {
+export default function Index() {
   return (
     <>
       <div className="home_section">

@@ -1,37 +1,42 @@
+import { useApp } from "@/Global-fun/AppProvider";
 import React from "react";
+import Mobile_all_categories from "../mobile-all-categories/Mobile_all_categories";
 
 const mobile_footer_navbar = () => {
+  const { phoneCatToggleHandel } = useApp();
   return (
     <>
       <div className="mobile_footer_navbar">
         <div className="mo_fo_navbar_content">
+          <button onClick={phoneCatToggleHandel}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="icon icon-tabler icon-tabler-menu-2"
+              width="36"
+              height="36"
+              viewBox="0 0 24 24"
+              strokeWidth="1"
+              stroke="currentColor"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 6l16 0"></path>
+              <path d="M4 12l16 0"></path>
+              <path d="M4 18l16 0"></path>
+            </svg>
+          </button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-menu-2"
             width="36"
             height="36"
             viewBox="0 0 24 24"
-            stroke-width="1"
+            strokeWidth="1"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 6l16 0"></path>
-            <path d="M4 12l16 0"></path>
-            <path d="M4 18l16 0"></path>
-          </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="36"
-            height="36"
-            viewBox="0 0 24 24"
-            stroke-width="1"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
@@ -40,15 +45,15 @@ const mobile_footer_navbar = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-user-circle"
+            className="icon icon-tabler icon-tabler-user-circle"
             width="36"
             height="36"
             viewBox="0 0 24 24"
-            stroke-width="1"
+            strokeWidth="1"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
