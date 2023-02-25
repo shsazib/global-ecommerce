@@ -62,7 +62,7 @@ const navTop = () => {
                 <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
               </svg>
 
-              <span className="absolute text-[13px] top-[10px] right-[-8px] bg-[var(--theme)] w-[20px] h-[20px] rounded-full grid items-center justify-center text-white">
+              <span className="absolute text-[13px] top-[10px] right-[-6px] bg-[var(--theme)] w-[20px] h-[20px] rounded-full grid items-center justify-center text-white">
                 <p>0</p>
               </span>
             </Link>
@@ -83,7 +83,7 @@ const navTop = () => {
                 <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"></path>
                 <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"></path>
               </svg>
-              <span className="absolute text-[13px] top-[10px] right-[-8px] bg-[var(--theme)] w-[20px] h-[20px] rounded-full grid items-center justify-center text-white">
+              <span className="absolute text-[13px] top-[10px] right-[-6px] bg-[var(--theme)] w-[20px] h-[20px] rounded-full grid items-center justify-center text-white">
                 <p>0</p>
               </span>
             </Link>
@@ -107,7 +107,7 @@ const navTop = () => {
                 <path d="M6 5l14 1l-1 7h-13"></path>
               </svg>
 
-              <span className="absolute text-[13px] top-[10px] right-[-8px] bg-[var(--theme)] w-[20px] h-[20px] rounded-full grid items-center justify-center text-white">
+              <span className="absolute text-[13px] top-[10px] right-[-6px] bg-[var(--theme)] w-[20px] h-[20px] rounded-full grid items-center justify-center text-white">
                 <p>0</p>
               </span>
             </Link>
