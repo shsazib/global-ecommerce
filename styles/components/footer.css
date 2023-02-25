@@ -49,6 +49,7 @@
 .footer_about p {
   color: #bbb;
   font-size: 15px;
+  text-align: justify;
 }
 .footer_icon .footer_single_icon {
   font-size: 35px;

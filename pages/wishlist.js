@@ -12,7 +12,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -22,7 +22,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -32,7 +32,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -42,7 +42,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -52,7 +52,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -62,7 +62,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -72,7 +72,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -82,7 +82,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -92,7 +92,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -102,7 +102,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -112,7 +112,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -122,7 +122,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
         <div className="single_wishlist_product grid gap-2">
@@ -132,7 +132,7 @@ const wishlist = () => {
             <p>TK. 12,000</p>
             <del className="text-xs">TK. 15,000</del>
           </div>
-          <button className="btn_2">Add to cart</button>
+          <button className="btn_1">Add to cart</button>
           <AiOutlineDelete className="wishList_delete_btn"  />
         </div>
       </div>

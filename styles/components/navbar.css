@@ -35,8 +35,7 @@
 
 /* navbar_top */
 .nav_top_container {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .navbar_top {
   @apply grid grid-flow-col justify-between items-center;
@@ -80,31 +79,16 @@
   display: none;
 }
 
-
-
-
-
-
-
-.nav_bottom_first{
+.nav_bottom_first {
   position: relative;
 }
-.nav_all_cat{
+.nav_all_cat {
   position: absolute;
   z-index: 999;
   display: grid;
   grid-template-columns: 280px auto;
-  background-color: #fff ;
+  background-color: #fff;
 }
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1300px) {
   .navbar_top {

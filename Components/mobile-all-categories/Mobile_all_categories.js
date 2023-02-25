@@ -45,40 +45,40 @@ const Mobile_all_categories = () => {
             <li>
               <div className="pac_border_bottom flex items-center justify-between">
                 <Link href="#">Products</Link>
-                <RiArrowDownSLine />
+                <RiArrowDownSLine className="text-[18px]" />
               </div>
               <div className="p_cat_submenu">
                 <div className="">
                   <div className=" pac_border_bottom flex items-center justify-between">
                     <Link href="#">Kids</Link>
-                    <RiArrowDownSLine />
+                    <RiArrowDownSLine className="text-[18px]" />
                   </div>
                   <div className="p_cat_nested_submenu">
                     <div className="pac_border_bottom">
-                      <Link href="#">1</Link>
+                      <Link href="#">Infant Wear</Link>
                     </div>
                     <div className="pac_border_bottom">
-                      <Link href="#">1</Link>
+                      <Link href="#">Boys & Girls Innerwear</Link>
                     </div>
                     <div className="pac_border_bottom">
-                      <Link href="#">1</Link>
+                      <Link href="#">Girls Dresses</Link>
                     </div>
                   </div>
                 </div>
                 <div className="">
-                  <div className=" pac_border_bottom flex items-center justify-between">
-                    <Link href="#">Kids</Link>
-                    <RiArrowDownSLine />
+                  <div className="pac_border_bottom flex items-center justify-between">
+                    <Link href="#">MEN FOOTWEAR</Link>
+                    <RiArrowDownSLine className="text-[18px]" />
                   </div>
                   <div className="p_cat_nested_submenu">
                     <div className="pac_border_bottom">
-                      <Link href="#">2</Link>
+                      <Link href="#">Combo Footwear</Link>
                     </div>
                     <div className="pac_border_bottom">
-                      <Link href="#">2</Link>
+                      <Link href="#">Active Footwear</Link>
                     </div>
                     <div className="pac_border_bottom">
-                      <Link href="#">2</Link>
+                      <Link href="#">Men's Formal Shoes</Link>
                     </div>
                   </div>
                 </div>

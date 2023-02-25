@@ -11,9 +11,13 @@ export function AppProvider({ children }) {
   const [loading, setLoading] = useState(false);
   const [categoryToggle, setCategoryToggle] = useState(false);
   const [phoneCatToggle, setPhoneCatToggle] = useState();
+  const [phoneNavToggle, setPhoneNavToggle] = useState();
 
   const phoneCatToggleHandel = () => {
     setPhoneCatToggle(!phoneCatToggle);
+  };
+  const phoneNavToggleHandel = () => {
+    setPhoneNavToggle(!phoneNavToggle);
   };
 
   const value = {
@@ -21,6 +25,8 @@ export function AppProvider({ children }) {
     setCategoryToggle,
     phoneCatToggle,
     phoneCatToggleHandel,
+    phoneNavToggle,
+    phoneNavToggleHandel,
   };
 
   return (
