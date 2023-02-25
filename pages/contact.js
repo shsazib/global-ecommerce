@@ -38,19 +38,19 @@ const contact = () => {
           <h2>Send A Message</h2>
           <div className="grid  gap-5">
             <div className="grid  gap-1">
-              <label for="name">Name</label>
+              <label htmlFor="name">Name</label>
               <input id="name" placeholder="Name" name="name" onChange={formik.handleChange} value={formik.values.name} />
             </div>
             <div className="grid  gap-1">
-              <label for="email">Email</label>
+              <label htmlFor="email">Email</label>
               <input id="email" placeholder="email" name="email" onChange={formik.handleChange} value={formik.values.email} />
             </div>
             <div className="grid  gap-1">
-              <label for="subject">Subject</label>
+              <label htmlFor="subject">Subject</label>
               <input id="subject" placeholder="Subject" name="subject" onChange={formik.handleChange} value={formik.values.subject} />
             </div>
             <div className="grid  gap-1">
-              <label for="message">Message</label>
+              <label htmlFor="message">Message</label>
               <textarea id="message" placeholder="Message" name="comment" onChange={formik.handleChange} value={formik.values.comment} />
             </div>
           </div>

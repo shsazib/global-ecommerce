@@ -11,8 +11,8 @@ const mobile_menu_var = () => {
       <div
         className={
           phoneNavToggle
-            ? "mobile_menu_var_section_close"
-            : "mobile_menu_var_section_open"
+          ? "mobile_menu_var_section_open"
+            : "mobile_menu_var_section_close"
         }
       >
         <div className="mobile_nav_logo flex items-center justify-between mb-8">

@@ -96,15 +96,15 @@ const Product = () => {
               <div className="brand hidden">
                 <div className=" cat_div flex justify-start items-center pt-2  cursor-pointer">
                   <input type="checkbox" id="UPS" className="spsc_input" />
-                  <label for="UPS">UPS</label>
+                  <label htmlFor="UPS">UPS</label>
                 </div>
                 <div className="flex justify-start items-center pt-2  cursor-pointer">
                   <input type="checkbox" id="Toyota" className="spsc_input" />
-                  <label for="Toyota">Toyota</label>
+                  <label htmlFor="Toyota">Toyota</label>
                 </div>
                 <div className="flex justify-start items-center pt-2 cursor-pointer">
                   <input type="checkbox" id="Sony" className="spsc_input" />
-                  <label for="Sony">Sony</label>
+                  <label htmlFor="Sony">Sony</label>
                 </div>
               </div>
             </div>
@@ -135,19 +135,19 @@ const Product = () => {
               <div className="size hidden">
                 <div className=" cat_div flex justify-start items-center pt-2  cursor-pointer">
                   <input type="checkbox" id="SM" className="spsc_input" />
-                  <label for="SM">S</label>
+                  <label htmlFor="SM">S</label>
                 </div>
                 <div className="flex justify-start items-center pt-2  cursor-pointer">
                   <input type="checkbox" id="MD" className="spsc_input" />
-                  <label for="MD">M</label>
+                  <label htmlFor="MD">M</label>
                 </div>
                 <div className="flex justify-start items-center pt-2 cursor-pointer">
                   <input type="checkbox" id="L" className="spsc_input" />
-                  <label for="L">L</label>
+                  <label htmlFor="L">L</label>
                 </div>
                 <div className="flex justify-start items-center pt-2 cursor-pointer">
                   <input type="checkbox" id="X" className="spsc_input" />
-                  <label for="X">X</label>
+                  <label htmlFor="X">X</label>
                 </div>
               </div>
             </div>
@@ -178,19 +178,19 @@ const Product = () => {
               <div className="hidden color">
                 <div className=" cat_div flex justify-start items-center pt-2  cursor-pointer">
                   <input type="checkbox" id="red" className="spsc_input" />
-                  <label for="red">Red</label>
+                  <label htmlFor="red">Red</label>
                 </div>
                 <div className="flex justify-start items-center pt-2  cursor-pointer">
                   <input type="checkbox" id="black" className="spsc_input" />
-                  <label for="black">Black</label>
+                  <label htmlFor="black">Black</label>
                 </div>
                 <div className="flex justify-start items-center pt-2 cursor-pointer">
                   <input type="checkbox" id="White" className="spsc_input" />
-                  <label for="White">White</label>
+                  <label htmlFor="White">White</label>
                 </div>
                 <div className="flex justify-start items-center pt-2 cursor-pointer">
                   <input type="checkbox" id="Gold" className="spsc_input" />
-                  <label for="Gold">Gold</label>
+                  <label htmlFor="Gold">Gold</label>
                 </div>
               </div>
             </div>
