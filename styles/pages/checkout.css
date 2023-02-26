@@ -1,177 +1,216 @@
 /* shopping_info */
 .checkout_content {
-    padding: 40px 0;
-  }
-  .payment_container {
-    display: grid;
-    grid-gap: 1rem;
-  }
-  .shopping_info {
-    width: 1200px;
-    margin: 0 auto;
-    border-radius: 5px;
-  }
-  
-  .shipping_i_add_address {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-  .shipping_i_a_n_address {
-    width: 100%;
-    cursor: pointer;
-    user-select: none;
-    border: 1px solid #dcdcdc;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-  }
-  .shipping_i_a_n_a_info {
-    color: #666;
-    line-height: 28px;
-    font-size: 16px;
-  }
-  .circle_btn {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    float: right;
-    color: #666;
-    padding: 5px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transition: 0.3s;
-    background-color: #eee;
-  }
-  .circle_btn:hover {
-    background-color: #ddd;
-  }
-  .circle_btn:focus-within {
-    border: 1px solid #eeee;
-  }
- 
-  .s_a_Edit_show li:hover {
-    background-color: #eee;
-  }
-  .s_a_Edit_show li {
-    padding: 0px 5px;
-    color: #fe6246;
+  width: 1200px;
+  margin: 0 auto;
+}
+.checkout_content {
+  padding-bottom: 40px;
+}
+.payment_container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+}
+.shopping_info {
+  border-radius: 5px;
+}
+
+.shipping_i_add_address {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.shipping_i_a_n_address {
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #dcdcdc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.shipping_i_a_n_a_info {
+  color: #666;
+  line-height: 25px;
+  font-size: 14px;
+}
+.circle_btn {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  color: #666;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 0.3s;
+  background-color: #eee;
+}
+.circle_btn:hover {
+  background-color: #ddd;
+}
+.circle_btn:focus-within {
+  border: 1px solid #eeee;
+}
+
+.s_a_Edit_show li:hover {
+  background-color: #eee;
+}
+.s_a_Edit_show li {
+  padding: 0px 5px;
+  color: #fe6246;
+}
+.s_a_Edit_show {
+  display: block;
+  border: 1px solid #eee;
+  background-color: #fff;
+  width: 150px;
+  position: absolute;
+  display: grid;
+  gap: 5px;
+  z-index: 1;
+  right: 50px;
+  top: 10px;
+}
+#shipping_my_btn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  border: 1px solid #dcdcdc;
+  color: #666;
+  font-size: 16px;
+  cursor: pointer;
+}
+.pop_up_heading h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.new_address_icon {
+  font-size: 22px;
+}
+
+/* popup Model content start */
+.pop_up_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  color: #666;
+}
+.pop_up_close_btn {
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.new_address_popup_con {
+  display: grid;
+  grid-gap: 1rem;
+}
+.pop_up_align {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1rem;
+}
+.pop_up_new_address #address,
+.pop_up_align input {
+  border: 1px solid #ddd;
+  outline: none;
+  width: 300px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.pop_up_align select {
+  padding: 10px;
+}
+.checkout_address_btn {
+  margin-top: 20px !important;
+  float: right;
+}
+.new_address_popup_con input {
+  outline: none;
+  border: 1px solid #eee;
+  padding: 8px;
+  width: 300px;
+  border-radius: 5px;
+}
+.react-tel-input .form-control {
+  border: 1px solid #eee !important;
+  padding: 20px 0 20px 50px !important;
+}
+.react-tel-input .form-control:focus {
+  border: 1px solid var(--theme) !important;
+}
+.new_address_popup_con input:focus,
+.new_address_popup_con textarea:focus {
+  border: 1px solid var(--theme);
+}
+.new_address_popup_con textarea {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 6px;
+  outline: none;
+  height: 100px;
+}
+
+.ReactModal__Overlay {
+  background-color: #3b3b3b59 !important;
+}
+/* popup Model content end */
+
+@media screen and (max-width: 1300px) {
+  /* shopping_info */
+  .checkout_content {
+    width: 950px;
   }
   .s_a_Edit_show {
-    display: block;
-    border: 1px solid #eee;
-    background-color: #fff;
-    width: 150px;
-    position: absolute;
-    display: grid;
-    gap: 5px;
-    z-index: 1;
-    right: 50px;
-    top: 10px;
+    width: 100px;
   }
-  #shipping_my_btn {
-    display: flex;
-    flex-direction: column;
-    gap: 0.7rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  /* checkout_content */
+  .checkout_content {
+    width: 700px;
+  }
+  .payment_container {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* checkout_content */
+  .checkout_content {
+    width: 500px;
+  }
+  .shipping_i_add_address {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .shipping_modal_content {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* checkout_content */
+  .checkout_content {
     width: 100%;
-    height: 120px;
-    border: 1px solid #dcdcdc;
-    color: #666;
-    font-size: 16px;
-    cursor: pointer;
+    padding: 0 2%;
   }
-  .new_address_icon {
-    font-size: 22px;
-  }
-  
-  /* popup Model content start */
-  .pop_up_heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #ddd;
-    color: #666;
-  }
-  .pop_up_close_btn {
-    font-size: 30px;
-    font-weight: 900;
-    cursor: pointer;
-  }
-  .new_address_popup_con {
-    display: grid;
-    grid-gap: 1rem;
-  }
-  .pop_up_align {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+  .shipping_i_add_address {
     gap: 1rem;
   }
   .pop_up_new_address #address,
   .pop_up_align input {
-    border: 1px solid #ddd;
-    outline: none;
-    width: 300px;
-    padding: 10px 10px;
-    border-radius: 5px;
+    width: 100%;
   }
-  .pop_up_align select {
-    padding: 10px;
-  }
-  .checkout_address_btn {
-    margin-top: 20px !important;
-    float: right;
-  }
-  /* popup Model content end */
-  
-  @media screen and (max-width: 1300px) {
-    /* shopping_info */
-    .shopping_info {
-      width: 950px;
-    }
-    .s_a_Edit_show {
-      width: 100px;
-    }
-  }
-  
-  @media screen and (max-width: 992px) {
-    /* shopping_info */
-    .shopping_info {
-      width: 700px;
-    }
-    .shipping_i_add_address {
-      grid-template-columns: 1fr;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    /* shopping_info */
-    .shopping_info {
-      width: 500px;
-    }
-    .shipping_modal_content {
-      width: 90%;
-    }
-  }
-  @media screen and (max-width: 576px) {
-    /* shopping_info */
-    .shopping_info {
-      width: 100%;
-      padding: 0 2%;
-    }
-    .shipping_i_add_address{
-        gap: 1rem;
-    }
-    .pop_up_new_address #address,
-    .pop_up_align input {
-      width: 100%;
-    }
-  }
-  
+}
