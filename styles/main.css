@@ -29,4 +29,6 @@
 @import url('./components/mobile_menu_var.css');
 @import url('./pages/cart.css');
 @import url('./pages/checkout.css');
+@import url('./pages/product-details.css');
+@import url('./components//product-details-color-option.css');
 @import url('./components/footer.css');

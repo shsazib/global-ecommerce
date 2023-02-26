@@ -17,7 +17,7 @@ const SingleProduct = ({
       <div className="">
         <div className="single_product rounded">
           <div className="product_img">
-            <Link href="#">
+            <Link href="/product-details">
               <img src={product_img} alt="product img"></img>
             </Link>
           </div>
