@@ -13,7 +13,11 @@ module.exports = {
     fontFamily: {
       'caveat': ['"Poppins", sans-serif'],
       'raleway': ['"Raleway", sans-serif'],
+      
     }
   },
-  plugins: [],
+  plugins: [
+    // ...
+    require('@tailwindcss/line-clamp'),
+  ],
 }

@@ -84,8 +84,46 @@ const productDetails = () => {
                 </div>
               </div>
             </div>
-            <div className="details_related_product">
+            <div className="details_related_product ">
               <h2 className="border_bottom py-2 text-[20px]">Recent Products</h2>
+              <div className="grid">
+              <div className="flex gap-2 border my-2 p-3 rounded">
+                <Link href="#">
+                  <img src="product/watch.png" alt="product img"></img>
+                </Link>
+                <div>
+                <Link href="#" className="line-clamp-1 font-caveat text-[14px] hover:text-[var(--theme)]">Garmin Venu 2S, Smaller-sized GPS Smartwatch with Advanced Health Monitoring and Fitness Features, Rose Gold Bezel with White Case and Silicone Band</Link>
+                <p className="font-caveat text-[14px]">$ 12, 321</p>
+                </div>
+              </div>
+              <div className="flex gap-2 border my-2 p-3 rounded">
+                <Link href="#">
+                  <img src="product/watch.png" alt="product img"></img>
+                </Link>
+                <div>
+                <Link href="#" className="line-clamp-1 font-caveat text-[14px] hover:text-[var(--theme)]">Garmin Venu 2S, Smaller-sized GPS Smartwatch with Advanced Health Monitoring and Fitness Features, Rose Gold Bezel with White Case and Silicone Band</Link>
+                <p className="font-caveat text-[14px]">$ 12, 321</p>
+                </div>
+              </div>
+              <div className="flex gap-2 border my-2 p-3 rounded">
+                <Link href="#">
+                  <img src="product/watch.png" alt="product img"></img>
+                </Link>
+                <div>
+                <Link href="#" className="line-clamp-1 font-caveat text-[14px] hover:text-[var(--theme)]">Garmin Venu 2S, Smaller-sized GPS Smartwatch with Advanced Health Monitoring and Fitness Features, Rose Gold Bezel with White Case and Silicone Band</Link>
+                <p className="font-caveat text-[14px]">$ 12, 321</p>
+                </div>
+              </div>
+              <div className="flex gap-2 border my-2 p-3 rounded">
+                <Link href="#">
+                  <img src="product/watch.png" alt="product img"></img>
+                </Link>
+                <div>
+                <Link href="#" className="line-clamp-1 font-caveat text-[14px] hover:text-[var(--theme)]">Garmin Venu 2S, Smaller-sized GPS Smartwatch with Advanced Health Monitoring and Fitness Features, Rose Gold Bezel with White Case and Silicone Band</Link>
+                <p className="font-caveat text-[14px]">$ 12, 321</p>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
 
